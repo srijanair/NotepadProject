@@ -1,0 +1,3 @@
+# NotepadProject
+
+Practising angular 
