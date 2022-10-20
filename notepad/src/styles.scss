@@ -1,10 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
 html {
     font-family: 'Courier New', Courier, monospace;
+}
+label {
+    width: 40%;
+    display: inline-block;
+}
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #888;
 }
 button {
     background: #037fb9;
     padding: 10px;
+    margin: 5px;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24);
     border-radius: 3px;;
     border: 0;
@@ -12,5 +21,16 @@ button {
  }
  .buttondel {
     background: #ff6f5c;
+}
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display:  block;
+    width: 600px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.24);
+    padding: 20px;
+    margin: 0 auto;
 }
  
