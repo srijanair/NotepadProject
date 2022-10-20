@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./addeditusers.component.scss']
 })
 export class AddeditusersComponent implements OnInit {
+  visible:boolean = false
+
+  OpenModal() {
+    this.visible = !this.visible;
+  }
+
 
   constructor() { }
 

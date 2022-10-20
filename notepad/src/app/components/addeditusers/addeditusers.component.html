@@ -1,5 +1,5 @@
-<button type="button">+ Add User</button>
-<div class="modal">
+<button type="button" (click)="OpenModal()">+ Add User</button>
+<div class="modal" *ngIf="visible">
     <form>
         <h2>Add User</h2>
         <hr>
@@ -21,7 +21,7 @@
         </div>
         <div class="">
             <button type="submit">Save</button>
-            <button type="button" class="buttondel">Cancel</button>
+            <button type="button" class="buttondel" (click)="OpenModal()">Cancel</button>
         </div>
     </form>
 </div>

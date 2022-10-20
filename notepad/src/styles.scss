@@ -18,15 +18,15 @@ button {
     border-radius: 3px;;
     border: 0;
     color: #fff;
+    cursor: pointer;
  }
  .buttondel {
     background: #ff6f5c;
 }
-.modal {
+.modal { 
     position: fixed;
     left: 0;
     right: 0;
-    display:  block;
     width: 600px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.24);
